@@ -85,7 +85,7 @@ const Work = () => {
                     </div>
                   </div>
                   
-                  <p className="text-gray-300 leading-relaxed mb-6 line-clamp-3">
+                  <p className="text-gray-300 leading-relaxed mb-6">
                     {workshop.description}
                   </p>
 

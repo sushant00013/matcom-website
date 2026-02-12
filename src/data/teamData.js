@@ -300,101 +300,145 @@ const teamData = [
   title: "1st year",
   members: [
     {
-      name: "Prince Namdeo",
-      image: getAvatar("Prince Namdeo"),
-      links: {
-        instagram: "https://www.instagram.com/prince603556?igsh=MTJyZmtlcGQyNTFhcw==",
-        linkedin: "https://www.linkedin.com/in/prince-namdeo-4a132838a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      }
-    },
-    {
-      name: "Krishna Nautiyal",
-      image: getAvatar("Krishna Nautiyal"),
-      links: {
-        instagram: "https://www.instagram.com/_krishnnaaa_65/",
-        linkedin: "https://in.linkedin.com/in/krishna-nautiyal-25247738b"
-      }
-    },
-    {
-      name: "Mehul Gupta",
-      image: getAvatar("Mehul Gupta"),
-      links: {
-        instagram: "https://www.instagram.com/me_mehulg?igsh=MWcxOTk3YnpwMTFtcg==",
-        linkedin: "https://www.linkedin.com/in/mehul-gupta-65a148383?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-      }
-    },
-    {
-      name: "Abhishek Katariya",
-      image: getAvatar("Abhishek Katariya"),
-      links: {
-        instagram: "https://www.instagram.com/its_abhi_5201?igsh=MTN5Nzd1cHIxNXJzYg==",
-        linkedin: "https://www.linkedin.com/in/abhi-katariya-b88a1537b"
-      }
-    },
-    {
-      name: "Abhay Choudhary",
-      image: getAvatar("Abhay Choudhary"),
-      links: {
-        instagram: "#",
-        linkedin: "https://www.linkedin.com/in/abhay-choudhary-3900a5381?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-      }
-    },
-    {
-      name: "Ocean Chauhan",
-      image: getAvatar("Ocean Chauhan"),
-      links: {
-        instagram: "https://www.instagram.com/ocean8_26/",
-        linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
-      }
-    },
-    {
-      name: "Kanika Beniwal",
-      image: getAvatar("Kanika Beniwal"),
-      links: {
-        instagram: "https://www.instagram.com/kanikabeniwal06?igsh=bnp4d2VjcXFpOWsz",
-        linkedin: "https://www.linkedin.com/in/kanika-beniwal-2a5a85381"
-      }
-    },
-    {
-      name: "Arju Alam",
-      image: getAvatar("Arju Alam"),
-      links: {
-        instagram: "https://www.instagram.com/arjualam_009?igsh=MXV6eXJ6eW12NHN2cA==",
-        linkedin: "https://www.linkedin.com/in/arju-alam-931716375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      }
-    },
-    {
-      name: "Piyush Choudhary",
-      image: getAvatar("Piyush Choudhary"),
-      links: {
-        instagram: "https://www.instagram.com/piyuxh_007?igsh=cWZ0MnB1Yzluem52",
-        linkedin: "https://www.linkedin.com/in/piyuxh07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      }
-    },
-    {
-      name: "Arpit Thakur",
-      image: getAvatar("Arpit Thakur"),
-      links: {
-        instagram: "https://www.instagram.com/arpit_thakur4589?igsh=MWdmdDNjMjh4cnM3MA==",
-        linkedin: "https://www.linkedin.com/in/arpit-thakur-43bb48396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      }
-    },
-    {
-      name: "Akshat Rajput",
-      image: getAvatar("Akshat Rajput"),
-      links: {
-        instagram: "https://www.instagram.com/akshatrajput273?igsh=MTJ5cTUwaWNlaXExaw==",
-        linkedin: "https://www.linkedin.com/in/akshat-rajput-84549a377/"
-      }
-    },
-    {
-      name: "Kanav",
-      image: getAvatar("Kanav"),
-      links: {
-        instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
-        linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-      }
+    name: "Prince Namdeo",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Prince.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/prince603556?igsh=MTJyZmtlcGQyNTFhcw==",
+      linkedin: "https://www.linkedin.com/in/prince-namdeo-4a132838a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
+  },
+  {
+    name: "Krishna Nautiyal",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Krishna.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/_krishnnaaa_65/",
+      linkedin: "https://in.linkedin.com/in/krishna-nautiyal-25247738b"
+    }
+  },
+  {
+    name: "Mehul Gupta",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Mehul Gupta.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/me_mehulg?igsh=MWcxOTk3YnpwMTFtcg==",
+      linkedin: "https://www.linkedin.com/in/mehul-gupta-65a148383?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    }
+  },
+  {
+    name: "Abhishek Katariya",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Abhishek katariya .jpg", // Note the space before .jpg as per your image
+    socials: {
+      instagram: "https://www.instagram.com/its_abhi_5201?igsh=MTN5Nzd1cHIxNXJzYg==",
+      linkedin: "https://www.linkedin.com/in/abhi-katariya-b88a1537b"
+    }
+  },
+  {
+    name: "Abhay Choudhary",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Abhay CHOUDHARY.jpg",
+    socials: {
+      instagram: "#",
+      linkedin: "https://www.linkedin.com/in/abhay-choudhary-3900a5381?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    }
+  },
+  {
+    name: "Ocean Chauhan",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Ocean_Chauhan.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/ocean8_26/",
+      linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
+    }
+  },
+  {
+    name: "Kanika Beniwal",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Kanika Beniwal.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/kanikabeniwal06?igsh=bnp4d2VjcXFpOWsz",
+      linkedin: "https://www.linkedin.com/in/kanika-beniwal-2a5a85381"
+    }
+  },
+  {
+    name: "Arju Alam",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/arju.jpg", 
+    socials: {
+      instagram: "https://www.instagram.com/arjualam_009?igsh=MXV6eXJ6eW12NHN2cA==",
+      linkedin: "https://www.linkedin.com/in/arju-alam-931716375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
+  },
+  {
+    name: "Piyush Choudhary",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Piyush.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/piyuxh_007?igsh=cWZ0MnB1Yzluem52",
+      linkedin: "https://www.linkedin.com/in/piyuxh07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
+  },
+  {
+    name: "Arpit Thakur",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Arpit_Thakur.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/arpit_thakur4589?igsh=MWdmdDNjMjh4cnM3MA==",
+      linkedin: "https://www.linkedin.com/in/arpit-thakur-43bb48396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
+  },
+  {
+    name: "Akshat Rajput",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Akshat_rajput.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/akshatrajput273?igsh=MTJ5cTUwaWNlaXExaw==",
+      linkedin: "https://www.linkedin.com/in/akshat-rajput-84549a377/"
+    }
+  },
+  {
+    name: "Adit",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/ADIT.jpg", 
+    socials: {
+      instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
+      linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    }
+  },
+  {
+    name: "Pushkar",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/Pushkar.jpg",
+    socials: {
+      instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
+      linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    }
+  },
+  {
+    name: "Kanav",
+    role: "Executive Member",
+    category: "1st Year",
+    image: "/team-images/1styear/kanav.jpg", 
+    socials: {
+      instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
+      linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    }
+  },
   ]
 }
 

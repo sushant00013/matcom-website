@@ -248,7 +248,7 @@ const Hero = () => {
           variants={textVariant}
           initial="hidden"
           animate="visible"
-          className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-2 text-white drop-shadow-[0_0_20px_rgba(0,243,255,0.8)] flex flex-wrap justify-center gap-x-2 md:gap-x-4"
+          className="text-5xl md:text-8xl font-extrabold tracking-tighter mb-2 text-white drop-shadow-[0_0_20px_rgba(0,243,255,0.8)] flex flex-wrap justify-center gap-x-2 md:gap-x-4"
         >
           {text.map((char, index) => (
             <motion.span key={index} variants={letterVariant} className="inline-block">
@@ -271,7 +271,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="max-w-4xl mx-auto font-medium tracking-wide px-4 pointer-events-auto"
+          className="md:text-4xl max-w-4xl mx-auto font-medium tracking-wide px-3 pointer-events-auto"
         >
           <span className="text-xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-white to-purple-200 drop-shadow-lg">
             A technical initiative associated with The Department of Mathematics and Scientific Computing

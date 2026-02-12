@@ -43,7 +43,7 @@ const Navbar = ({ onNavClick }) => {
           <img 
             src="/logo.png" 
             alt="MATCOM Logo" 
-            className="w-12 h-12 object-contain hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(0,243,255,0.5)]"
+            className="w-10 h-10 object-contain hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(0,243,255,0.5)]"
           />
         </motion.div>
 
@@ -64,10 +64,11 @@ const Navbar = ({ onNavClick }) => {
         {/* --- RIGHT: CTA BUTTON & NIMBUS LOGO --- */}
         <div className="flex items-center gap-6">
           
-          {/* Join Us Button */}
-          <button className="hidden md:block px-6 py-2 border border-neonBlue text-neonBlue text-[10px] font-bold uppercase tracking-widest rounded-full hover:bg-neonBlue hover:text-black transition-all shadow-[0_0_10px_rgba(0,243,255,0.2)]">
+          {/* Join Us Button
+          <button className="hidden md:block px-6 py-2 border border-neonBlue text-neonBlue text-[10px] font-bold uppercase tracking-widest rounded-full hover:bg-neonBlue hover:text-black transition-all shadow-[0_0_10px_rgba(0,243,255,0.2)] md:mr-10">
             Join Us
-          </button>
+            <link rel="stylesheet" href="" />
+          </button> */}
 
           {/* NIMBUS LOGO */}
           <motion.div 
@@ -77,7 +78,7 @@ const Navbar = ({ onNavClick }) => {
             <img 
               src="/nimbus.png" 
               alt="Nimbus Logo" 
-              className="w-12 h-12 object-contain hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(188,19,254,0.5)]"
+              className="w-auto h-12 object-contain hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(188,19,254,0.5)]"
             />
           </motion.div>
 
