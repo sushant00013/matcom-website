@@ -126,12 +126,12 @@ const teamData = [
       },
       { 
         name: "Lovish Shrail", 
-        image: "public/team-images/3rdyear/lovish.jpg", 
+        image: "/team-images/3rdyear/lovish.jpg", 
         links: { instagram: "https://www.instagram.com/lovish_shrail?igsh=MXI2aXR6aWx4OThjcw==", linkedin: "https://www.linkedin.com/in/lovish-shrail-55a8b6269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Ojaswi Jaswal", 
-        image: "public/team-images/3rdyear/ojaswi.jpg", 
+        image: "/team-images/3rdyear/ojaswi.jpg", 
         links: { instagram: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13", linkedin: "https://www.linkedin.com/in/ojaswi-jaswal-1b5b80280/" } 
       },
       { 
