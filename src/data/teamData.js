@@ -7,7 +7,7 @@ const teamData = [
     members: [
       {
         name: 'HIMANSHU',
-        image: "public/team-images/coordinators/himanshu.jpg", 
+        image: "/team-images/coordinators/himanshu.jpg", 
         links: { 
           instagram: "https://www.instagram.com/_himanshu_079?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
           linkedin: "https://www.linkedin.com/in/himanshudiwaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
@@ -15,7 +15,7 @@ const teamData = [
       },
       {
         name: 'SHANCHIT SHARMA',
-        image: "public/team-images/coordinators/sanchit.jpg",
+        image: "/team-images/coordinators/sanchit.jpg",
         links: { 
           instagram: "https://www.instagram.com/sanchit_s06/", 
           linkedin: "https://www.linkedin.com/in/sanchitsharma06/" 
@@ -23,7 +23,7 @@ const teamData = [
       },
       {
         name: 'Dharuva Thakur',
-        image:"public/team-images/coordinators/Dharuva.png" ,
+        image:"/team-images/coordinators/Dharuva.png" ,
         links: { 
           instagram: "https://www.instagram.com/dharuva_thakur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
           linkedin: "https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdharuva-thakur-83576122a%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYstVr2D-W5IdWITXQ8pFjf20nfWUgU3Nsls-OtgdRJCrRN1w8nWHuoB88_aem_xnPRszOpmRCrHKH0QSnNkw&e=AT0Beauu4E6xIbrfiLj-aFFBdEiAk6H29-4IsxJ-gud_IFy4D_kvDGMBqjd7K0axOcA4-5QmTUrzllWs5QGkufVYtdqndTd9ckSEU2k" 
@@ -31,7 +31,7 @@ const teamData = [
       },
       {
         name: "Mehul Aggarwal",
-        image: "public/team-images/coordinators/Mehul.jpg",
+        image: "/team-images/coordinators/Mehul.jpg",
         links: { 
           instagram: "https://www.instagram.com/mehul_tp26?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
           linkedin: "https://www.linkedin.com/in/mehul-aggarwal-47285421b/" 
@@ -39,7 +39,7 @@ const teamData = [
       },
       {
         name: "Shivansh Joshi",
-        image: "public/team-images/final year/SHIVANSHJOSHI_22BMA038.jpg",
+        image: "/team-images/final year/SHIVANSHJOSHI_22BMA038.jpg",
         links: { 
           instagram: "https://www.instagram.com/joshi_shivansh27?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
           linkedin: "https://www.linkedin.com/in/shivansh-joshi-75870026a/" 
@@ -47,7 +47,7 @@ const teamData = [
       },
       {
         name: "Krishna Narzary",
-        image: "public/team-images/final year/Krishna_22bma015.jpg",
+        image: "/team-images/final year/Krishna_22bma015.jpg",
         links: { 
           instagram: "https://www.instagram.com/majuuu___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
           linkedin: "https://www.linkedin.com/in/krishna-narzary-32b74a254/" 
@@ -61,57 +61,57 @@ const teamData = [
     members: [
       { 
         name: "Krishna Narzary", 
-        image: "public/team-images/final year/Krishna_22bma015.jpg", 
+        image: "/team-images/final year/Krishna_22bma015.jpg", 
         links: { instagram: "https://www.instagram.com/majuuu___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/krishna-narzary-32b74a254/" } 
       },
       { 
         name: "Shivansh Joshi", 
-        image: "public/team-images/final year/SHIVANSHJOSHI_22BMA038.jpg", 
+        image: "/team-images/final year/SHIVANSHJOSHI_22BMA038.jpg", 
         links: { instagram: "https://www.instagram.com/joshi_shivansh27?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/shivansh-joshi-75870026a/" } 
       },
       { 
         name: "Ujjwal Mittal", 
-        image: "public/team-images/final year/Ujjwal_22BMA045.jpg", 
+        image: "/team-images/final year/Ujjwal_22BMA045.jpg", 
         links: { instagram: "https://www.instagram.com/ujjwal_mittal_0101?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/ujjwamittal/" } 
       },
       { 
         name: "Dhruv Chauhan", 
-        image: "public/team-images/final year/DhruvChauhan_22BMA011.jpg", 
+        image: "/team-images/final year/DhruvChauhan_22BMA011.jpg", 
         links: { instagram: "https://www.instagram.com/dhruv_____chauhan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/dhruvchauhan245/" } 
       },
       { 
         name: "Sushant", 
-        image: "public/team-images/final year/susi.jpg", 
+        image: "/team-images/final year/susi.jpg", 
         links: { instagram: "https://www.instagram.com/sushant_ii?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/sushant-bab3b2257/" } 
       },
       { 
         name: "Ritika Yullam", 
-        image: "public/team-images/final year/Ritika_22BMA028.jpg", 
+        image: "/team-images/final year/Ritika_22BMA028.jpg", 
         links: { instagram: "https://www.instagram.com/ritikaayullam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/ritika-kumari25081/" } 
       },
       { 
         name: "Anshika Bharwal", 
-        image: "public/team-images/final year/anshika_22bma006.jpg", 
+        image: "/team-images/final year/anshika_22bma006.jpg", 
         links: { instagram: "https://www.instagram.com/anshikabharwal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/anshika-bharwal-014672256/" } 
       },
       { 
         name: "Devender Kumar", 
-        image:"public/team-images/final year/DevenderKumar_22bma010.jpg", 
+        image:"/team-images/final year/DevenderKumar_22bma010.jpg", 
         links: { instagram: "https://www.instagram.com/devenderkumar2003?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/devenderkumar2003/" } 
       },
       { 
         name: "Tanishq Verma", 
-        image:"public/team-images/final year/Tanishq_22BMA043.jpg", 
+        image:"/team-images/final year/Tanishq_22BMA043.jpg", 
         links: { instagram: "https://www.instagram.com/tanishq_v010?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/tanishq-verma-nith/" } 
       },
       { 
         name: "Prakriti", 
-        image:"public/team-images/final year/prakriti.jpg", 
+        image:"/team-images/final year/prakriti.jpg", 
         links: { instagram: "https://www.instagram.com/prakriti_singh25?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/prakriti-singh-33991925a/" } 
       },
       { 
         name: "Utkarsh Arora", 
-        image: "public/team-images/final year/UtkarshArora_22BMA046.jpg", 
+        image: "/team-images/final year/UtkarshArora_22BMA046.jpg", 
         links: { instagram: "https://www.instagram.com/arthon242?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/utkarsh-arora-a28bb217a/" } 
       },
     ],
@@ -121,7 +121,7 @@ const teamData = [
     members: [
       { 
         name: "Prince Khandelwal", 
-        image: "public/team-images/3rdyear/prince.jpg", 
+        image: "/team-images/3rdyear/prince.jpg", 
         links: { instagram: "https://www.instagram.com/prince_khandelwal04?igsh=NWl5aDVlOW5hZDR1", linkedin: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
@@ -141,72 +141,72 @@ const teamData = [
       },
       { 
         name: "Rudesh", 
-        image: "public/team-images/3rdyear/rudesh.jpg", 
+        image: "/team-images/3rdyear/rudesh.jpg", 
         links: { instagram: "#", linkedin: "https://www.linkedin.com/in/rudesh-kumar-40712b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Aditya Sangal", 
-        image: "public/team-images/3rdyear/AdityaSangal.jpg", 
+        image: "/team-images/3rdyear/AdityaSangal.jpg", 
         links: { instagram: "https://www.instagram.com/adityasangal9/?hl=en", linkedin: "https://www.linkedin.com/in/adityasangal9/" } 
       },
       { 
         name: "Sahil Rana", 
-        image: "public/team-images/3rdyear/sahil.jpg", 
+        image: "/team-images/3rdyear/sahil.jpg", 
         links: { instagram: "https://www.instagram.com/__sa_hil__ra_na__/?igsh=Y3VjaWtoZ3V6djM=", linkedin: "https://www.linkedin.com/in/sahil-rana-49a74828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Shruti", 
-        image:"public/team-images/3rdyear/shruti.jpg", 
+        image:"/team-images/3rdyear/shruti.jpg", 
         links: { instagram: "https://www.instagram.com/0802_shruti?igsh=MWlwZjZqbXowZzd0eg==", linkedin: "https://www.linkedin.com/in/shruti-ranjan-196a072a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Jaspreet Walia", 
-        image: "public/team-images/3rdyear/jaspreet.jpg", 
+        image: "/team-images/3rdyear/jaspreet.jpg", 
         links: { instagram: "https://www.instagram.com/jass24.walia/?hl=en", linkedin: "https://www.linkedin.com/in/jaspreet-walia-8a9124295/" } 
       },
       { 
         name: "Srishti", 
-        image: "public/team-images/3rdyear/srishti.jpg", 
+        image: "/team-images/3rdyear/srishti.jpg", 
         links: { instagram: "https://www.instagram.com/__srishtinegi_08?igsh=MWFxOXQxa2RnNjZnNw==", linkedin: "https://www.linkedin.com/in/srishti-3405702b0" } 
       },
       { 
         name: "Akshay Kumar", 
-        image: "public/team-images/3rdyear/akshaykumar.jpg", 
+        image: "/team-images/3rdyear/akshaykumar.jpg", 
         links: { instagram: "https://www.instagram.com/__akshay.___._/?hl=en", linkedin: "https://www.linkedin.com/in/akshay-kumar-b06063179/" } 
       },
       { 
         name: "Akshay Anand", 
-        image: "public/team-images/3rdyear/akshaymec.jpg", 
+        image: "/team-images/3rdyear/akshaymec.jpg", 
         links: { instagram: "https://www.instagram.com/whysoaksh?igsh=MXNqYndjNHBxN29nNw==", linkedin: "https://www.linkedin.com/in/akshay-anand-46856a2ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Nikhilesh Sahu", 
-        image: "public/team-images/3rdyear/nikhilesh.jpg", 
+        image: "/team-images/3rdyear/nikhilesh.jpg", 
         links: { instagram: "https://www.instagram.com/nikhusahu21?igsh=MTBob3VxcDhtaml4", linkedin: "https://www.linkedin.com/in/nikhilesh-sahu-232b32288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Nitin Thakur", 
-        image: "public/team-images/3rdyear/NitinThakur.jpg", 
+        image: "/team-images/3rdyear/NitinThakur.jpg", 
         links: { instagram: "https://www.instagram.com/iamnitin_026/", linkedin: "https://www.linkedin.com/in/nitin-thakur-3a8a572a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Ramit", 
-        image: "public/team-images/3rdyear/ramit.jpg", 
+        image: "/team-images/3rdyear/ramit.jpg", 
         links: { instagram: "https://www.instagram.com/_w_i_z_00?igsh=dXltMnhwamZyYTg=", linkedin: "https://www.linkedin.com/in/ramit-0-b62329349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Aryan Soni", 
-        image: "public/team-images/3rdyear/aryansoni.jpg", 
+        image: "/team-images/3rdyear/aryansoni.jpg", 
         links: { instagram: "https://www.instagram.com/introspective_aryan/", linkedin: "https://www.linkedin.com/in/aryan-soni-6bbb5b270/" } 
       },
       { 
         name: "Vinayak Sharma", 
-        image: "public/team-images/3rdyear/vinayak.jpg", 
+        image: "/team-images/3rdyear/vinayak.jpg", 
         links: { instagram: "https://www.instagram.com/_vinayak.79?igsh=bmU1dTF5NmR0ZDNu", linkedin: "https://www.linkedin.com/in/vinayak-sharma-b80a59294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Raman Kumar", 
-        image: "public/team-images/3rdyear/RamanKumar.jpg", 
+        image: "/team-images/3rdyear/RamanKumar.jpg", 
         links: { instagram: "https://www.instagram.com/ramankumar_99/?hl=en ", linkedin: "https://www.linkedin.com/in/raman-kumar-ab6451290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
@@ -216,22 +216,22 @@ const teamData = [
       },
       { 
         name: "Nikhil Rana", 
-        image: "public/team-images/3rdyear/nikhil.jpg", 
+        image: "/team-images/3rdyear/nikhil.jpg", 
         links: { instagram: "https://www.instagram.com/rana_nikhil?igsh=bGF5ODB0ODd5ZTd4", linkedin: "https://www.linkedin.com/in/nikhil-rana-458735281/" } 
       },
       { 
         name: "Ansh Pujara", 
-        image:"public/team-images/3rdyear/ansh.jpg", 
+        image:"/team-images/3rdyear/ansh.jpg", 
         links: { instagram: "https://www.instagram.com/pujara.ansh/?hl=en", linkedin: "https://www.linkedin.com/in/ansh-pujara-48656b291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" } 
       },
       { 
         name: "Sarthak", 
-        image:"public/team-images/3rdyear/SARTHAK.jpg", 
+        image:"/team-images/3rdyear/SARTHAK.jpg", 
         links: { instagram: "#", linkedin: "#" } 
       },
       { 
         name: "Arushi Dhiman", 
-        image: "public/team-images/3rdyear/arushi.jpg", 
+        image: "/team-images/3rdyear/arushi.jpg", 
         links: { instagram: "https://www.instagram.com/arus_hi7455?igsh=bTF6djgyODV5eGQ2&utm_source=ig_contact_invite", linkedin: "https://www.linkedin.com/in/akshay-anand-46856a2ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
@@ -256,22 +256,22 @@ const teamData = [
       },
       { 
         name: "Komal Choudhary", 
-        image:"public/team-images/2ndyear/KomalChoudhary.jpg", 
+        image:"/team-images/2ndyear/KomalChoudhary.jpg", 
         links: { instagram: "https://www.instagram.com/komal_choudhary2006?igsh=Z3JnemtnZGZxenZy", linkedin: "https://www.linkedin.com/in/komal-choudhary-9b9878334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
         name: "Kunal Thakur", 
-        image: "public/team-images/2ndyear/kunalthakur.jpg", 
+        image: "/team-images/2ndyear/kunalthakur.jpg", 
         links: { instagram: "https://www.instagram.com/_.thakurkunal._/#", linkedin: "https://www.linkedin.com/in/kunal-thakur-2248b1334/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BRW%2Fi1ztKSc6Z4pcjdx0QfQ%3D%3D" } 
       },
       { 
         name: "Shreyans Jain", 
-        image:"public/team-images/2ndyear/SHREYANSJAIN.jpg" , 
+        image:"/team-images/2ndyear/SHREYANSJAIN.jpg" , 
         links: { instagram: "https://www.instagram.com/shreyans1805?igsh=MTRxN3p3MWZjcmc4NQ==", linkedin: "https://www.linkedin.com/in/shreyans-jain-0b1170325/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3B%2BFifvY%2FHTemSh%2BgtDysE1w%3D%3D" } 
       },
       { 
         name: "Sushant Yadav", 
-        image: "public/team-images/2ndyear/sushant.jpg", 
+        image: "/team-images/2ndyear/sushant.jpg", 
         links: { instagram: "https://www.instagram.com/heree_sushant?igsh=YTRzNTh1cW1waTAw", linkedin: "https://www.linkedin.com/in/sushant-yadav-a929aa322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
@@ -291,7 +291,7 @@ const teamData = [
       },
       { 
         name: "Abhishek", 
-        image: "public/team-images/2ndyear/abhishek.jpg", 
+        image: "/team-images/2ndyear/abhishek.jpg", 
         links: { instagram: "#", linkedin: "#" } 
       },
     ],
