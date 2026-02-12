@@ -136,7 +136,7 @@ const teamData = [
       },
       { 
         name: "Sneha", 
-        image: "public/team-images/3rdyear/SNEHA.jpg", 
+        image: "/team-images/3rdyear/SNEHA.jpg", 
         links: { instagram: "https://www.instagram.com/sneha_rana777?igsh=dWxsZDk4dDNveG1x", linkedin: "https://www.linkedin.com/in/sneha-4a25342b0" } 
       },
       { 
@@ -211,7 +211,7 @@ const teamData = [
       },
       { 
         name: "Dipanshi Gupta", 
-        image: "public/team-images/3rdyear/DipanshiGupta.jpg", 
+        image: "/team-images/3rdyear/DipanshiGupta.jpg", 
         links: { instagram: "https://www.instagram.com/dipanshi_369/?hl=en", linkedin: "https://www.linkedin.com/in/dipanshi-gupta-67157428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } 
       },
       { 
