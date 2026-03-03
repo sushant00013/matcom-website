@@ -44,7 +44,7 @@
   {
     id: 1,
     title: "Parking Solutions",
-    tech: ["React", "Algorithms", "CSS"],
+    // tech: ["React", "Algorithms", "CSS"],
     description: "This system revolutionizes urban parkin-g with real-time space detection and private spot sharing. Using YOLO and Mask R-CNN for AI-driven detection, it integrates user-friendly features like secure registration, space listing, reservations, video verification, and payment processing.",
     link: "#",
     
@@ -53,7 +53,7 @@
   {
     id: 2,
     title: "MatCom Official Site",
-    tech: ["React", "Tailwind", "Framer"],
+    // tech: ["React", "Tailwind", "Framer"],
     description: "The futuristic official website for the Mathematics & Computing department.",
     link: "#",
     // 👇 ADD THIS LINE
@@ -62,7 +62,7 @@
   {
     id: 3,
     title: "Algo Trading Bot",
-    tech: ["Python", "ML", "Flask"],
+    // tech: ["Python", "ML", "Flask"],
     description: "AlgoBot is an advanced trading system that automates buy and sell decisions using ML, sentiment analysis, and risk management strategies. It adapts to real-time market trends, integrates psychological factors like fear and greed, and ensures a secure, user-friendly interface.",
     link: "#",
     // 👇 ADD THIS LINE
@@ -71,7 +71,7 @@
   {
     id: 4,
     title: "SenioGuide",
-    tech: ["Python", "ML", "Flask"],
+    // tech: ["Python", "ML", "Flask"],
     description: "SenioGuide is an intuitive platform designed to assist elderly individuals in navigating applications like messaging and payment apps. By offering step-by-step guidance and interactive cues, it simplifies complex tasks, empowering users to stay connected and independent.",
     link: "#",
     // 👇 ADD THIS LINE
@@ -80,7 +80,7 @@
   {
     id: 5,
     title: "Swift Snip",
-    tech: ["Python", "ML", "Flask"],
+    // tech: ["Python", "ML", "Flask"],
     description: "Real-time cryptocurrency price prediction model using historical data.",
     link: "#",
     // 👇 ADD THIS LINE
@@ -89,7 +89,7 @@
   {
     id: 6,
     title: "Spoof Call Detection",
-    tech: ["Python", "ML", "Flask"],
+    // tech: ["Python", "ML", "Flask"],
     description: "Real-time cryptocurrency price prediction model using historical data.",
     link: "#",
     // 👇 ADD THIS LINE
@@ -98,7 +98,7 @@
   {
     id: 7,
     title: "AeroVigil",
-    tech: ["Python", "ML", "Flask"],
+    // tech: ["Python", "ML", "Flask"],
     description: "Real-time cryptocurrency price prediction model using historical data.",
     link: "#",
     // 👇 ADD THIS LINE
@@ -107,7 +107,7 @@
   {
     id: 8,
     title: "FashioAI",
-    tech: ["Python", "ML", "Flask"],
+    // tech: ["Python", "ML", "Flask"], 
     description: "FashioAI is an innovative platform that combines ML,AR, and 3D rendering to provide users with an immersive virtual shopping experience. It allows individuals to try on garments virtually, visualizing how they would look on their bodies in real-time. By analyzing body shapes and predicting garment sizes.",
     link: "#",
     // 👇 ADD THIS LINE

@@ -80,23 +80,23 @@ const Work = () => {
                       </h3>
                     </div>
                     {/* Date Badge Corner */}
-                    <div className="hidden md:flex items-center gap-2 text-gray-400 border border-white/10 px-3 py-1 rounded-full text-xs">
+                    {/* <div className="hidden md:flex items-center gap-2 text-gray-400 border border-white/10 px-3 py-1 rounded-full text-xs">
                        <Calendar size={14} /> {workshop.date}
-                    </div>
+                    </div> */}
                   </div>
                   
                   <p className="text-gray-300 leading-relaxed mb-6">
                     {workshop.description}
                   </p>
 
-                  <div className="flex gap-6 mt-auto">
+                  {/* <div className="flex gap-6 mt-auto">
                     <button className="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-neonBlue transition-colors">
                       Register Now
                     </button>
                     <button className="px-8 py-3 border border-white/30 text-white font-bold rounded-full hover:bg-white/10 transition-colors">
                       View Syllabus
                     </button>
-                  </div>
+                  </div> */}
                 </div>
 
               </div>
