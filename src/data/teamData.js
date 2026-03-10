@@ -277,7 +277,7 @@ const teamData = [
       {
         name: "Abhishek",
         image: "/team-images/2ndyear/abhishek.jpg",
-        links: { instagram: "#", linkedin: "https://www.linkedin.com/in/abhishek-meena-23759035b?utm_source=share_via&utm_content=profile&utm_medium=member_android" }
+        links: { instagram: "https://www.instagram.com/abhi__23007/", linkedin: "https://www.linkedin.com/in/abhishek-meena-23759035b?utm_source=share_via&utm_content=profile&utm_medium=member_android" }
       },
 
       {
