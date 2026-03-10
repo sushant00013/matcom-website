@@ -19,21 +19,21 @@ import React from 'react';
       id: 1,
       title: "INVESTMENT INFERNO",
       date: "Oct 15, 2025",
-      image: "public/inferno.jpg",
+      image: "inferno.jpg",
       description: "Investment Inferno 2.0 is an immersive stock market simulation event that combines learning and entertainment. Participants trade self-created stocks representing diverse sectors on a dedicated platform over 12 hours, striving to maximize their virtual portfolio."
     },
     {
       id: 2,
       title: "OPEN-CV WORKSHOP",
       date: "Nov 20, 2025",
-      image: "public/opencv.jpg",
+      image: "opencv.jpg",
       description: "Dive into the world of computer vision with our beginner-friendly OpenCV workshop! Learn to harness the power of image processing and object detection through hands-on coding sessions."
     },
     {
       id: 3,
       title: "CODE-O-TREASURE",
       date: "Jan 10, 2026",
-      image: "public/inferno.jpg",
+      image: "inferno.jpg",
       description: "An exhilarating cryptography-based treasure hunt where teams decode puzzles, follow clues, and compete for points using teamwork and problem-solving."
     }
   ];
