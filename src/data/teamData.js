@@ -271,7 +271,7 @@ const teamData = [
       },
       {
         name: "Sushant Yadav",
-        image: "/team-images/2ndyear/Sushant.jpg",
+        image: "/team-images/2ndyear/sushant.jpg",
         links: { instagram: "https://www.instagram.com/heree_sushant?igsh=YTRzNTh1cW1waTAw", linkedin: "https://www.linkedin.com/in/sushant-yadav-a929aa322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
       },
       {
