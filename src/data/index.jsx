@@ -59,7 +59,7 @@ import React from 'react';
     title: "AeroCraft 3D",
     description: "A drone-based 3D modeling system equipped with IR sensors to automate spatial mapping for VFX, game development, and architectural visualization.",
     link: "#",
-    image: "image3.jpg",
+    image: "image7.png",
   },
   {
     id: 4,
