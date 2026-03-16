@@ -14,11 +14,13 @@ import { domains } from './data';
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [selectedDomain, setSelectedDomain] = useState(null);
+  
+  // --- NEW STATE FOR DEVINFO ---
+  const [isDevOpen, setIsDevOpen] = useState(false);
 
   // --- LOADER LOGIC ---
   const handlePageChange = () => {
     setIsLoading(true);
-    // 1.5 seconds baad loader hat jayega
     setTimeout(() => {
       setIsLoading(false);
     }, 1500);
@@ -49,7 +51,6 @@ function App() {
             The <span className="text-transparent bg-clip-text bg-gradient-to-r from-neonBlue to-purple-500">Universe</span>
           </motion.h2>
 
-          {/* Floating Bubbles Container */}
           <div className="relative w-full max-w-[1400px] flex flex-wrap justify-center items-center gap-10 md:gap-20 px-10 z-10">
             {domains.map((domain) => (
               <DomainCard 
@@ -59,16 +60,15 @@ function App() {
               />
             ))}
           </div>
-          
-          {/* Background Tech Pattern */}
           <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#00f3ff_1px,transparent_1px)] bg-[size:30px_30px] pointer-events-none"></div>
         </section>
 
-        {/* --- OTHER SECTIONS --- */}
         <Work />
         <Projects />
         <Team />
-        <Footer />
+        
+        {/* --- FOOTER (Added Dev Trigger) --- */}
+        <Footer onDevClick={() => setIsDevOpen(true)} />
       </main>
 
       {/* --- DOMAIN POP-UP MODAL --- */}
@@ -82,7 +82,6 @@ function App() {
               onClick={() => setSelectedDomain(null)}
               className="absolute inset-0 bg-black/95 backdrop-blur-xl"
             />
-
             <motion.div 
               initial={{ scale: 0.7, opacity: 0, rotateX: 45 }}
               animate={{ scale: 1, opacity: 1, rotateX: 0 }}
@@ -92,28 +91,81 @@ function App() {
               <div className="h-64 relative">
                 <img src={selectedDomain.bgImage} className="w-full h-full object-cover opacity-60" alt="bg" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
-                <button 
-                  onClick={() => setSelectedDomain(null)}
-                  className="absolute top-6 right-6 w-12 h-12 bg-white/10 hover:bg-neonBlue hover:text-black rounded-full flex items-center justify-center transition-all font-bold backdrop-blur-md"
-                >
-                  ✕
-                </button>
+                <button onClick={() => setSelectedDomain(null)} className="absolute top-6 right-6 w-12 h-12 bg-white/10 hover:bg-neonBlue hover:text-black rounded-full flex items-center justify-center transition-all font-bold backdrop-blur-md">✕</button>
               </div>
-
               <div className="p-10 -mt-16 relative z-10">
                 <div className="flex items-center gap-5 mb-6">
-                  <div className="p-4 bg-neonBlue/20 rounded-2xl text-neonBlue border border-neonBlue/30">
-                    {selectedDomain.icon}
-                  </div>
+                  <div className="p-4 bg-neonBlue/20 rounded-2xl text-neonBlue border border-neonBlue/30">{selectedDomain.icon}</div>
                   <h3 className="text-4xl md:text-5xl font-black text-white italic">{selectedDomain.title}</h3>
                 </div>
-                <p className="text-gray-400 text-lg leading-relaxed mb-10">
-                  {selectedDomain.description}
-                </p>
-                <button className="w-full py-4 bg-neonBlue text-black font-black uppercase tracking-[0.2em] rounded-xl hover:shadow-[0_0_40px_#00f3ff] transition-all transform active:scale-95">
-                  Access Node
-                </button>
+                <p className="text-gray-400 text-lg leading-relaxed mb-10">{selectedDomain.description}</p>
+                <button className="w-full py-4 bg-neonBlue text-black font-black uppercase tracking-[0.2em] rounded-xl hover:shadow-[0_0_40px_#00f3ff] transition-all transform active:scale-95">Access Node</button>
               </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
+      {/* --- DEV INFO MODAL (Sushant Yadav) --- */}
+      <AnimatePresence>
+        {isDevOpen && (
+          <div className="fixed inset-0 z-[300] flex items-center justify-center p-4">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsDevOpen(false)}
+              className="absolute inset-0 bg-black/90 backdrop-blur-2xl"
+            />
+            <motion.div 
+              initial={{ y: 50, opacity: 0, scale: 0.9 }}
+              animate={{ y: 0, opacity: 1, scale: 1 }}
+              exit={{ y: 50, opacity: 0, scale: 0.9 }}
+              className="relative w-full max-w-2xl bg-[#0a0a0a] border border-neonBlue/30 rounded-[2rem] overflow-hidden shadow-[0_0_60px_rgba(0,243,255,0.15)]"
+            >
+              <div className="flex flex-col md:flex-row items-center p-8 gap-10">
+                {/* Profile Pic Container */}
+                <div className="relative w-48 h-48 shrink-0">
+                  <div className="absolute inset-0 border-2 border-dashed border-neonBlue rounded-full animate-spin-slow opacity-20" />
+                  <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/5 shadow-2xl">
+                    <img 
+                      src="/team-images/2ndyear/sushant.jpg" // 👈 Apna image path check kar lena
+                      alt="Developer" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* Info Text */}
+                <div className="text-center md:text-left flex-1">
+                  <h2 className="text-4xl font-black text-white italic uppercase tracking-tighter">
+                    Sushant <span className="text-neonBlue">Yadav</span>
+                  </h2>
+                  <p className="text-[10px] font-mono text-gray-500 mt-2 uppercase tracking-[0.3em]">
+                    Web Developer | NIT Hamirpur
+                  </p>
+                  <div className="h-[2px] w-16 bg-neonBlue my-5 mx-auto md:mx-0" />
+                  <p className="text-gray-400 text-sm leading-relaxed font-light">
+                  I am a student at the National Institute of Technology Hamirpur. 
+                  I am pursuing a Bachelor of Technology in Mathematics and Computing and am an active member of Team MATCOM.
+                   With expertise in React.js and Node.js, I focus on creating immersive digital experiences.
+                  </p>
+                  
+                  {/* Action Buttons */}
+                  <div className="flex justify-center md:justify-start gap-4 mt-8">
+                    <a href="https://github.com/sushant00013" target="_blank" rel="noreferrer" className="px-5 py-2 bg-white/5 border border-white/10 rounded-lg text-[10px] font-bold uppercase tracking-widest hover:bg-neonBlue hover:text-black transition-all">Github</a>
+                    <a href="https://www.linkedin.com/in/sushant-yadav-a929aa322/" target="_blank" rel="noreferrer" className="px-5 py-2 bg-white/5 border border-white/10 rounded-lg text-[10px] font-bold uppercase tracking-widest hover:bg-neonBlue hover:text-black transition-all">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Close Icon */}
+              <button 
+                onClick={() => setIsDevOpen(false)}
+                className="absolute top-6 right-8 text-gray-500 hover:text-neonBlue transition-colors text-xl font-bold"
+              >
+                ✕
+              </button>
             </motion.div>
           </div>
         )}

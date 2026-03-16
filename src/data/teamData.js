@@ -1,4 +1,4 @@
-// Function to generate dynamic avatars based on names
+
 const getAvatar = (name) => `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=0D8ABC&color=fff&size=128&bold=true`;
 
 const teamData = [
@@ -54,6 +54,23 @@ const teamData = [
         },
       },
     ],
+  },
+  {
+    title: "Current Club-Coordinators",
+    members: [
+      {
+        name: "Sneha",
+        image: "/team-images/3rdyear/SNEHA.jpg",
+        links: { instagram: "https://www.instagram.com/sneha_rana777?igsh=dWxsZDk4dDNveG1x", linkedin: "https://www.linkedin.com/in/sneha-4a25342b0" }
+      },
+      {
+        name: "Sahil Rana",
+        image: "/team-images/3rdyear/sahil.jpg",
+        links: { instagram: "https://www.instagram.com/__sa_hil__ra_na__/?igsh=Y3VjaWtoZ3V6djM=", linkedin: "https://www.linkedin.com/in/sahil-rana-49a74828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
+      },
+
+    ]
+
   },
 
   {
