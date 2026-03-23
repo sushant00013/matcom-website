@@ -42,7 +42,7 @@ const Footer = ({ onDevClick }) => {
         <a href="https://www.linkedin.com/company/matcom-nith/posts/?feedView=all" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-[#0077b5] transition-all hover:-translate-y-1 transform duration-300">
             <Linkedin size={22} />
         </a>
-        <a href="mailto:matcom@nith.ac.in" className="text-gray-500 hover:text-neonBlue transition-all hover:-translate-y-1 transform duration-300">
+        <a href="mailto:matcom.nimbus@nith.ac.in" className="text-gray-500 hover:text-neonBlue transition-all hover:-translate-y-1 transform duration-300">
             <Mail size={22} />
         </a>
       </div>

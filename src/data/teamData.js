@@ -458,6 +458,16 @@ const teamData = [
           linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
         }
       },
+       {
+        name: "Nimish",
+        role: "Executive Member",
+        category: "1st Year",
+        image: "/team-images/1styear/nimish.jpg",
+        socials: {
+          instagram: "https://www.instagram.com/nim_ishhhhhh/",
+          linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+        }
+      },
     ]
   }
 
