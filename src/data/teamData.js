@@ -2,6 +2,19 @@
 const getAvatar = (name) => `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=0D8ABC&color=fff&size=128&bold=true`;
 
 const teamData = [
+  { title: "Faculty Incharge",
+    members: [
+      {
+        name:'PROF. GANESH TALHARI SIR',
+        image : "ganesh.jpeg",
+        links:{
+          instagram: "",
+          linkedin:"https://www.linkedin.com/in/ganesh-talari-5b55a23b/"
+        }
+      }
+    ]
+
+  },
   {
     title: "Previous Club Coordinators",
     members: [
@@ -323,7 +336,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Prince.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/prince603556?igsh=MTJyZmtlcGQyNTFhcw==",
           linkedin: "https://www.linkedin.com/in/prince-namdeo-4a132838a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
@@ -333,7 +346,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Krishna.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/_krishnnaaa_65/",
           linkedin: "https://in.linkedin.com/in/krishna-nautiyal-25247738b"
         }
@@ -343,7 +356,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Mehul Gupta.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/me_mehulg?igsh=MWcxOTk3YnpwMTFtcg==",
           linkedin: "https://www.linkedin.com/in/mehul-gupta-65a148383?utm_source=share_via&utm_content=profile&utm_medium=member_android"
         }
@@ -352,8 +365,8 @@ const teamData = [
         name: "Abhishek Katariya",
         role: "Executive Member",
         category: "1st Year",
-        image: "/team-images/1styear/Abhishek katariya .jpg", // Note the space before .jpg as per your image
-        socials: {
+        image: "/team-images/1styear/Abhishek katariya .jpg",
+        links: {
           instagram: "https://www.instagram.com/its_abhi_5201?igsh=MTN5Nzd1cHIxNXJzYg==",
           linkedin: "https://www.linkedin.com/in/abhi-katariya-b88a1537b"
         }
@@ -363,7 +376,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Abhay CHOUDHARY.jpg",
-        socials: {
+        links: {
           instagram: "#",
           linkedin: "https://www.linkedin.com/in/abhay-choudhary-3900a5381?utm_source=share_via&utm_content=profile&utm_medium=member_android"
         }
@@ -373,7 +386,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Ocean_Chauhan.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/ocean8_26/",
           linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
         }
@@ -383,7 +396,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Kanika Beniwal.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/kanikabeniwal06?igsh=bnp4d2VjcXFpOWsz",
           linkedin: "https://www.linkedin.com/in/kanika-beniwal-2a5a85381"
         }
@@ -393,7 +406,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/arju.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/arjualam_009?igsh=MXV6eXJ6eW12NHN2cA==",
           linkedin: "https://www.linkedin.com/in/arju-alam-931716375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
@@ -403,7 +416,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Piyush.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/piyuxh_007?igsh=cWZ0MnB1Yzluem52",
           linkedin: "https://www.linkedin.com/in/piyuxh07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
@@ -413,7 +426,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Arpit_Thakur.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/arpit_thakur4589?igsh=MWdmdDNjMjh4cnM3MA==",
           linkedin: "https://www.linkedin.com/in/arpit-thakur-43bb48396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
@@ -423,7 +436,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Akshat_rajput.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/akshatrajput273?igsh=MTJ5cTUwaWNlaXExaw==",
           linkedin: "https://www.linkedin.com/in/akshat-rajput-84549a377/"
         }
@@ -433,9 +446,9 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/ADIT.jpg",
-        socials: {
-          instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
-          linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+        links: {
+          instagram: "https://www.linkedin.com/in/adit-keshav-39614738a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+          linkedin: "https://www.instagram.com/aditkeshav_0101/="
         }
       },
       {
@@ -443,7 +456,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/Pushkar.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
           linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
         }
@@ -453,7 +466,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/kanav.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/freakinkanav?igsh=MXY0Mm8wcmRtaG5jcA==",
           linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
         }
@@ -463,7 +476,7 @@ const teamData = [
         role: "Executive Member",
         category: "1st Year",
         image: "/team-images/1styear/nimish.jpg",
-        socials: {
+        links: {
           instagram: "https://www.instagram.com/nim_ishhhhhh/",
           linkedin: "https://www.linkedin.com/in/kanav-k-85a35038b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
         }
