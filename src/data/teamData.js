@@ -5,7 +5,7 @@ const teamData = [
   { title: "Faculty Incharge",
     members: [
       {
-        name:'PROF. GANESH TALHARI SIR',
+        name:'PROF. TALARI GANESH SIR',
         image : "ganesh.jpeg",
         links:{
           instagram: "",
